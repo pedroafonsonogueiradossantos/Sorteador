@@ -18,11 +18,6 @@ public class ControllerSorteador {
         return "index";
     }
 
-    @GetMapping("/index")
-    public String getFirstPage() {
-        return "index";
-    }
-
     @GetMapping("/result")
     public String getResultPage(){
         return "result";
